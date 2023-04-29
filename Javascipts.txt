@@ -1,0 +1,33 @@
+DOM là viết tắt của từ gì?
+>>DOM là viết tắt của chữ Document Object Model.
+
+HTML DOM là gì?
+>>Đây là một cách gọi khác của DOM trong Javascript, tức là DOM dùng để truy xuất đến các thẻ HTML và thay đổi dữ liệu cho thẻ HTML đó.
+
+Dom element là gì?
+>>Là loại DOM dùng để truy xuất đến các thẻ HTML thông qua tên id, tên class, tên thẻ html ...
+
+Dom manipulation là gì?
+>>Đây là một thuật ngữ tiếng Anh, nó có nghĩa là các thao tác với DOM trong Javascript.
+
+BOM là gì?
+>>BOM là chữ viết tắt của Browser Object Model, hay còn gọi là các đối tượng liên quan đến trình duyệt browser. Mỗi browser sẽ có những đối tượng khác nhau nên nó không có một chuẩn chung nào cả. Tuy nhiên, để có tính thống nhất giữa các trình duyệt thì người ta quy ước ra các loại BOM sau:
+	window	
+	screen
+	location
+	history
+	navigator
+	popup
+	timing
+	cookies
+
+Cookie là gì ?
+>>Cookie là dữ liệu được lưu trữ trong một file text, và nằm trong máy tính, nên việc lưu trữ cookie sẽ là vĩnh viễn hoặc là một thời gian cụ thể, tất cả đều do bạn thiết lập. Tuy nhiên, mỗi domain chỉ có một dung lượng cookie tối đa, nên hãy lưu ý cho trường hợp cần lưu dữ liệu quá lớn.
+
+Hoisting trong javascript là gì?
+>>Khi bạn thực thi một đoạn mã javascript thì trình biên dịch sẽ tạo ra một bối cảnh thực thi chung, ta gọi là global execution context.
+Bối cảnh thực thi này sẽ có hai giai đoạn, thứ nhất là tạo và thứ hai là thực thi.
+Trong giai đoạn tạo thì javascript sẽ di chuyển các khai báo biến lên đầu của đoạn mã, giúp cho chương trình không bị lỗi khi sử dụng biến trước khi khai báo. Tính năng này ta gọi là tính năng lưu trữ trong javascript, và trong tiếng Anh gọi là Hoisting.
+
+Closure là gì?
+>>Closure là một hàm được tạo ra từ bên trong một hàm khác, nó có thể sử dụng các biến toàn cục, biến cục bộ của hàm cha và biến cục bộ của chính nó. Việc viết hàm theo kiểu closure trong một số trường hợp sẽ giúp code nhìn sáng và dễ quản lý hơn, linh hoạt hơn trong một số trường hợp.

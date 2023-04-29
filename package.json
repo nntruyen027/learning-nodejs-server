@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "NodeJS Server Simple",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "NodeJS",
+    "Server"
+  ],
+  "author": "Nguyễn Ngọc Truyện",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^2.1.1"
+  }
+}
