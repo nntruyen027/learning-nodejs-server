@@ -12,7 +12,7 @@ http.createServer((req, res) => {
 
     if (req.url == '/upload' && req.method == 'POST') {
         const form = new formidable.IncomingForm({
-            uploadDir: './upload'
+            uploadDir: '.'
         });
 
         const options = {};
